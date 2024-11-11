@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <singlepages>
+        <page name="Simple Cookie Banner" path="/dashboard/simple_cookie_banner"
+              filename="/dashboard/simple_cookie_banner.php"
+              pagetype="" description=""
+              package="simple_cookie_banner">
+        </page>
+        <page name="Setup" path="/dashboard/simple_cookie_banner/setup"
+              filename="/dashboard/simple_cookie_banner/setup.php" pagetype="" description=""
+              package="simple_cookie_banner">
+        </page>
+        <page name="Settings" path="/dashboard/simple_cookie_banner/settings"
+              filename="/dashboard/simple_cookie_banner/settings.php" pagetype="" description=""
+              package="simple_cookie_banner">
+        </page>
+        <page name="Content" path="/dashboard/simple_cookie_banner/content"
+              filename="/dashboard/simple_cookie_banner/content.php" pagetype="" description=""
+              package="simple_cookie_banner">
+        </page>
+    </singlepages>
+
+    <blocktypes>
+        <blocktype handle="manage_cookie_settings" package="simple_cookie_banner"/>
+    </blocktypes>
+</concrete5-cif>

@@ -1,0 +1,26 @@
+{
+  "name": "simple_cookie_Banner",
+  "version": "1.0.0",
+  "description": "Package that contains the official Simple Cookie Banner add-on for Concrete CMS Version 9 and above.",
+  "author": "Fabian Bitter",
+  "license": "MIT",
+  "devDependencies": {
+    "@concretecms/bedrock": "^1.4.8",
+    "laravel-mix": "^6.0.41",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.59.3",
+    "sass-loader": "^12.6.0",
+    "vue-loader": "^15.10.1",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "vanilla-cookieconsent": "^3.0.1"
+  }
+}

@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simple_cookie_banner 3.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11T20:27:54+00:00\n"
+"PO-Revision-Date: 2024-11-11 21:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.5\n"
+
+#: packages/simple_cookie_banner/data.xml:7
+#: packages/simple_cookie_banner/controller.php:25
+msgid "Simple Cookie Banner"
+msgstr "Simple Cookie Banner"
+
+#: packages/simple_cookie_banner/data.xml:11
+msgid "Setup"
+msgstr "Setup"
+
+#: packages/simple_cookie_banner/data.xml:15
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: packages/simple_cookie_banner/data.xml:19
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:55
+msgid "Content"
+msgstr "Inhalte"
+
+#: packages/simple_cookie_banner/controller.php:20
+msgid "The one and only cookie banner add-on for Concrete CMS."
+msgstr "Das One And Only Cookie-Banner Add-on für Concrete CMS."
+
+#: packages/simple_cookie_banner/blocks/manage_cookie_settings/controller.php:18
+msgid "Add manage cookie settings link to your site."
+msgstr "Fügen Sie einen Link zur Verwaltung der Cookie-Einstellungen zu Ihrer Website hinzu."
+
+#: packages/simple_cookie_banner/blocks/manage_cookie_settings/controller.php:23
+#: packages/simple_cookie_banner/blocks/manage_cookie_settings/view.php:8
+msgid "Manage Cookie Settings"
+msgstr "Cookie-Einstellungen verwalten"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:59
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:211
+msgid "Consent Modal"
+msgstr "Zustimmungs-Fenster"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:100
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:239
+msgid "Preferences Modal"
+msgstr "Einstellungs-Fenster"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:132
+msgid "Section Necessary"
+msgstr "Abschnitt Erforderlich"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:150
+msgid "Section Analytics"
+msgstr "Abschnitt Analytics"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:193
+msgid "Analytics Cookies"
+msgstr "Abschnitt Analytics"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:205
+msgid "Section Marketing"
+msgstr "Abschnitt Marketing"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:242
+msgid "Marketing Cookies"
+msgstr "Marketing Cookies"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:257
+msgid "Add Cookie"
+msgstr "Cookie hinzufügen"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:265
+msgid "Name"
+msgstr "Name"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:269
+msgid "Domain"
+msgstr "Domäne"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:273
+msgid "Description"
+msgstr "Beschreibung"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:277
+msgid "Duration"
+msgstr "Dauer"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:319
+msgid "Delete"
+msgstr "Löschen"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/content.php:393
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:736
+msgid "Save"
+msgstr "Speichern"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:122
+msgid "Options"
+msgstr "Optionen"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:123
+msgid "Styling"
+msgstr "Styling"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:130
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:279
+msgid "General"
+msgstr "Allgemein"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:134
+msgid "Privacy Page"
+msgstr "Datenschutz-Seite"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:178
+msgid "Cookie"
+msgstr "Cookie"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:309
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:653
+msgid "Color"
+msgstr "Farbe"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:317
+msgid "Primary Color"
+msgstr "Hauptfarbe"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:325
+msgid "Secondary Color"
+msgstr "Sekundäre Farbe"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:333
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:533
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:661
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:345
+msgid "Primary Button"
+msgstr "Primäre Schaltfläche"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:349
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:405
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:461
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:509
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:677
+msgid "Background Color (Regular State)"
+msgstr "Hintergrundfarbe (Normalzustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:357
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:413
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:469
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:477
+msgid "Border Color (Regular State)"
+msgstr "Rahmenfarbe (Normalzustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:365
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:421
+msgid "Color (Regular State)"
+msgstr "Farbe (Normalzustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:373
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:437
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:493
+msgid "Border Color (Active State)"
+msgstr "Rahmenfarbe (Aktiver Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:381
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:429
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:485
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:517
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:685
+msgid "Background Color (Active State)"
+msgstr "Hintergrundfarbe (Aktiver Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:389
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:445
+msgid "Color (Active State)"
+msgstr "Farbe (Aktiver Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:401
+msgid "Secondary Button"
+msgstr "Sekundäre Schaltfläche"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:457
+msgid "Category Block"
+msgstr "Kategorie Block"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:505
+msgid "Category Block (Expanded)"
+msgstr "Kategorie Block (Erweitert)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:529
+msgid "Overlay"
+msgstr "Overlay"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:545
+msgid "Toggle"
+msgstr "Schalter"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:549
+msgid "Background Color (Readonly State)"
+msgstr "Hintergrundfarbe (schreibgeschützter Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:557
+msgid "Knob Background Color (Readonly State)"
+msgstr "Knopf Hintergrundfarbe (schreibgeschützter Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:565
+msgid "Icon Color (Readonly State)"
+msgstr "Symbolfarbe (schreibgeschützter Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:573
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:581
+msgid "Knob Background Color (On State)"
+msgstr "Knopf Hintergrundfarbe (aktivierer Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:589
+msgid "Icon Color (On State)"
+msgstr "Symbolfarbe (aktivierer Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:597
+msgid "Know Background Color (Off State)"
+msgstr "Knopf Hintergrundfarbe (deaktivierer Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:605
+msgid "Background Color (Off State)"
+msgstr "Hintergrundfarbe (deaktivierer Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:613
+msgid "Icon Color (Off State)"
+msgstr "Symbolfarbe (deaktivierer Zustand)"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:625
+msgid "Separator"
+msgstr "Trenner"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:629
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:645
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:641
+msgid "Footer"
+msgstr "Fußbereich"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:673
+msgid "Scrollbar"
+msgstr "Scrollbalken"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:697
+msgid "Buttons"
+msgstr "Schaltflächen"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:710
+msgid "Modals"
+msgstr "Fenster"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/settings.php:723
+msgid "Pm Toggle"
+msgstr "Pm Schalter"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/setup.php:8
+msgid "To prevent analytics and marketing scripts from running before user consent, add <strong>type=\"text/plain\"</strong> along with the <strong>data-category</strong> attribute. This setup ensures that the scripts are only activated after the user gives consent."
+msgstr "Um zu verhindern, dass Analyse- und Marketingskripte vor der Zustimmung des Benutzers ausgeführt werden, fügen Sie <strong>type=\"text/plain\"</strong> zusammen mit dem Attribut <strong>data-category</strong> hinzu. Diese Konfiguration stellt sicher, dass die Skripte erst aktiviert werden, nachdem der Benutzer seine Zustimmung gegeben hat."
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/setup.php:12
+msgid "Here's the implementation:"
+msgstr "Hier ist die Implementierung:"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/setup.php:16
+msgid "Analytics Code Example"
+msgstr "Analytics-Codebeispiel"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/setup.php:24
+msgid "Marketing Code Example"
+msgstr "Marketing Code Example"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/setup.php:32
+msgid "Necessary Code Example"
+msgstr "Erforderliches Codebeispiel"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/setup.php:36
+msgid "No additional attributes are needed for necessary cookies:"
+msgstr "Für notwendige Cookies sind keine weiteren Attribute erforderlich:"
+
+#: packages/simple_cookie_banner/single_pages/dashboard/simple_cookie_banner/setup.php:44
+msgid "With <strong>type=\"text/plain\"</strong>, these scripts will not execute until consent is given. The Simple Cookie Banner will then switch them to the appropriate type once the user accepts."
+msgstr "Mit <strong>type=\"text/plain\"</strong> werden diese Skripte erst ausgeführt, wenn die Zustimmung erteilt wurde. Das Simple Cookie Banner wandelt sie dann in den entsprechenden Typ um, sobald der Benutzer zustimmt."
+
+#: packages/simple_cookie_banner/elements/dashboard/help.php:10
+msgid "Get Help"
+msgstr "Hilfe anfordern"
+
+#: packages/simple_cookie_banner/elements/dashboard/help.php:20
+#: packages/simple_cookie_banner/elements/dashboard/help_blocktypes.php:20
+msgid "Support"
+msgstr "Support"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/content.php:76
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:103
+msgid "The settings has been successfully updated."
+msgstr "Die Einstellungen wurden erfolgreich aktualisiert."
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:115
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:130
+msgid "Box"
+msgstr "Box"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:116
+msgid "Box (Inline)"
+msgstr "Box (Inline)"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:117
+msgid "Box (Wide)"
+msgstr "Box (Weit)"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:118
+msgid "Cloud"
+msgstr "Wolke"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:119
+msgid "Cloud (Inline)"
+msgstr "Wolke (Inline)"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:120
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:131
+msgid "Bar"
+msgstr "Bar"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:121
+msgid "Bar (Inline)"
+msgstr "Bar (Inline)"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:125
+msgid "Top"
+msgstr "Oben"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:126
+msgid "Bottom"
+msgstr "Unten"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:132
+msgid "Bar (Wide)"
+msgstr "Bar (Weit)"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:136
+msgid "Right"
+msgstr "Rechts"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:137
+msgid "Left"
+msgstr "Links"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:141
+msgid "Dark"
+msgstr "Dunkel"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:142
+msgid "Light"
+msgstr "Hell"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:146
+msgid "Lax"
+msgstr "Lax"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:147
+msgid "Strict"
+msgstr "Stricht"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:151
+msgid "Opt In"
+msgstr "Opt In"
+
+#: packages/simple_cookie_banner/controllers/single_page/dashboard/simple_cookie_banner/settings.php:152
+msgid "Opt Out"
+msgstr "Opt Out"
+
+#: packages/simple_cookie_banner/controllers/dialog/support/create_ticket.php:56
+msgid "Ticket Created"
+msgstr "Ticket erstellt"
+
+#: packages/simple_cookie_banner/controllers/dialog/support/create_ticket.php:57
+msgid "Your ticket has been successfully created."
+msgstr "Ihr Ticket wurde erfolgreich erstellt."
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:12
+msgid "Bug"
+msgstr "Fehler"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:13
+msgid "Enhancement"
+msgstr "Enhancement"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:14
+msgid "Proposal"
+msgstr "Vorschlag"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:15
+msgid "Task"
+msgstr "Aufgabe"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:19
+msgid "Trivial"
+msgstr "Trivial"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:20
+msgid "Minor"
+msgstr "Unerheblich"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:21
+msgid "Major"
+msgstr "Major"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:22
+msgid "Critical"
+msgstr "Kritisch"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:23
+msgid "Blocker"
+msgstr "Blocker"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:45
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:50
+msgid "Title"
+msgstr "Titel"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:60
+msgid "Type"
+msgstr "Typ"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:65
+msgid "Priority"
+msgstr "Priorität"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:71
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: packages/simple_cookie_banner/views/dialogs/support/create_ticket.php:75
+msgid "Create Ticket"
+msgstr "Ticket erstellen"
