@@ -7,6 +7,7 @@ use Concrete\Core\Asset\AssetList;
 use Concrete\Core\Entity\Site\Site;
 use Concrete\Core\Foundation\Service\Provider;
 use Concrete\Core\Application\Application;
+use Concrete\Core\Http\Request;
 use Concrete\Core\Localization\Localization;
 use Concrete\Core\Page\Collection\Version\Version;
 use Concrete\Core\Page\Page;
@@ -58,6 +59,7 @@ class ServiceProvider extends Provider
 
         $this->eventDispatcher->addListener('on_before_render', function () {
             $c = Page::getCurrentPage();
+            $r = Request::getInstance();
 
             if ($c instanceof Page && !$c->isError()) {
                 $v = View::getInstance();
@@ -219,7 +221,7 @@ class ServiceProvider extends Provider
                         "lazyHtmlGeneration" => (bool)$this->siteConfig->get("simple_cookie_banner.config.lazy_html_generation", true),
                         "cookie" => [
                             "name" => $this->siteConfig->get("simple_cookie_banner.config.cookie.name", "cc_cookie"),
-                            "domain" => $_SERVER['SERVER_NAME'],
+                            "domain" => $r->server->get('SERVER_NAME'),
                             "path" => $this->siteConfig->get("simple_cookie_banner.config.cookie.path", "/"),
                             "expiresAfterDays" => (int)$this->siteConfig->get("simple_cookie_banner.config.cookie.expires_after_days", 182),
                             "sameSite" => $this->siteConfig->get("simple_cookie_banner.config.cookie.same_site", "Lax"),

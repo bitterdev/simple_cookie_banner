@@ -9,7 +9,7 @@ use Concrete\Core\Entity\Package as PackageEntity;
 class Controller extends Package
 {
     protected string $pkgHandle = 'simple_cookie_banner';
-    protected string $pkgVersion = '0.1.6';
+    protected string $pkgVersion = '0.1.7';
     protected $appVersionRequired = '9.0.0';
     protected $pkgAutoloaderRegistries = [
         'src/Bitter/SimpleCookieBanner' => 'Bitter\SimpleCookieBanner',
