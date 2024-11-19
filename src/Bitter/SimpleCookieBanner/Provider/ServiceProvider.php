@@ -208,7 +208,7 @@ class ServiceProvider extends Provider
                 /** @noinspection JSUnresolvedFunction */
                 /** @noinspection JSVoidFunctionReturnValueUsed */
                 $v->addFooterItem(sprintf(
-                    '<script>document.addEventListener(\'DOMContentLoaded\', function () { CookieConsent.run(%s) });</script>',
+                    '<script>document.addEventListener(\'DOMContentLoaded\', function () { let config = %s; config.onModalShow = function() { if (typeof window.processButtons === \'function\') { window.processButtons(); } }; CookieConsent.run(config) });</script>',
                     json_encode([
                         "root" => ".ccm-page",
                         "mode" => $this->siteConfig->get("simple_cookie_banner.config.mode", "opt-in"),
