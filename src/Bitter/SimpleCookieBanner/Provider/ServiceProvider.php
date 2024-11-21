@@ -145,6 +145,11 @@ class ServiceProvider extends Provider
                     }
                 }
 
+                if (count($languages) === 0) {
+                    $language = substr(Localization::getInstance()->getLocale(), 0, 2);
+                    $languages[] = $language;
+                }
+
                 foreach ($languages as $language) {
                     $translations[$language] = [
                         "consentModal" => [

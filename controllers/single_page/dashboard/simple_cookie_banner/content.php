@@ -35,6 +35,11 @@ class Content extends DashboardSitePageController
             }
         }
 
+        if (count($languages) === 0) {
+            $language = substr(Localization::getInstance()->getLocale(), 0, 2);
+            $languages[$language] =  Language::getName($language);
+        }
+
         if ($this->request->getMethod() === "POST") {
             $this->formValidator->setData($this->request->request->all());
             $this->formValidator->addRequiredToken("update_settings");
