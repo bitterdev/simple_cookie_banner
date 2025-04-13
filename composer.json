@@ -1,5 +1,10 @@
 {
   "name": "bitter/simple_cookie_banner",
   "type": "concrete5-package",
-  "description": "The one and only cookie banner add-on for Concrete CMS."
+  "description": "The one and only cookie banner add-on for Concrete CMS.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\SimpleCookieBanner\\": "src/Bitter/SimpleCookieBanner"
+    }
+  }
 }
