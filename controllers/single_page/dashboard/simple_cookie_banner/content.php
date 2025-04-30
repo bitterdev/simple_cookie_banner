@@ -2,6 +2,7 @@
 
 namespace Concrete\Package\SimpleCookieBanner\Controller\SinglePage\Dashboard\SimpleCookieBanner;
 
+use Concrete\Core\Entity\Site\Locale;
 use Concrete\Core\Localization\Localization;
 use Concrete\Core\Site\Config\Liaison;
 use Concrete\Core\Error\ErrorList\ErrorList;
@@ -27,11 +28,13 @@ class Content extends DashboardSitePageController
     {
         $languages = [];
 
-        foreach (array_keys(Localization::getAvailableInterfaceLanguageDescriptions()) as $locale) {
-            $language = substr($locale, 0, 2);
+        foreach ($this->site->getLocales() as $locale) {
+            if ($locale instanceof Locale) {
+                $language = $locale->getLanguage();
 
-            if (!in_array($language, array_keys($languages))) {
-                $languages[$language] =  Language::getName($language);
+                if (!in_array($language, array_keys($languages))) {
+                    $languages[$language] = Language::getName($language);
+                }
             }
         }
 
