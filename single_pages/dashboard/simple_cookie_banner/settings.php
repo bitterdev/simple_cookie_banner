@@ -115,6 +115,8 @@ $ui = $app->make(UserInterface::class);
     ?>
 </div>
 
+<?php View::element("dashboard/did_you_know", [], "simple_cookie_banner"); ?>
+
 <form action="#" method="post">
     <?php echo $token->output("update_settings"); ?>
 
